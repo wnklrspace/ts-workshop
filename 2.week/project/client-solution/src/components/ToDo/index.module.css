@@ -1,0 +1,166 @@
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.listContainer {
+	width: 50rem;
+	margin: 0 auto;
+	padding: 5rem 0;
+}
+
+.listContainerHeader {
+	margin-bottom: 2rem;
+}
+
+.todoItem {
+	min-height: 5rem;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem 0 0;
+	background-color: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(1rem);
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.todoItemCompleted {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.todoItem:hover .buttonDelete {
+	opacity: 1;
+}
+
+.buttonDelete {
+	opacity: 0;
+	transition: 0.1s ease-in-out;
+	cursor: pointer;
+}
+
+.todoItemCheckbox {
+	height: 5rem;
+	width: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todoItemTitleCompleted {
+	text-decoration: line-through;
+}
+
+.todoItemInput {
+	width: 100%;
+	height: 100%;
+	min-height: 3rem;
+	font-size: 1.4rem;
+	padding: 0 1rem;
+	border: 1px solid #222;
+	border-radius: 0.5rem;
+	outline: none;
+	background-color: transparent;
+}
+
+.editBox {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+}
+
+.button {
+	height: 3rem;
+	width: 3rem;
+	flex-shrink: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(1rem);
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.addButton {
+	height: 5rem;
+}
+
+.inputContainerOuter {
+	position: relative;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.buttonSave {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	bottom: 1px;
+	width: 28px;
+	height: 28px;
+}
+
+.inputContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(1rem);
+
+	z-index: 10;
+}
+
+.inputContainerTop {
+	position: relative;
+	width: 100%;
+	height: 4rem;
+}
+
+.inputContainerTop label,
+.inputContainerTop input {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	height: 100%;
+	width: 100%;
+	font-size: 1.4rem;
+}
+
+.inputContainerTop input {
+	background-color: transparent;
+	padding: 0 1rem;
+	border: none;
+	outline: none;
+}
+
+.inputContainerBottom {
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	gap: 1rem;
+}
+
+.primaryButton {
+	height: 3rem;
+	font-size: 1.4rem;
+	padding: 0 1rem;
+	border: none;
+	background-color: #222;
+	color: #fff;
+	border-radius: 0.5rem;
+}
+
+.primaryButtonDisabled {
+	background-color: #ccc;
+}

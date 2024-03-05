@@ -1,0 +1,51 @@
+.footer {
+	background-color: #020202;
+	color: #ccc;
+	padding: 4rem 2rem 1rem;
+}
+
+.listContainer {
+	max-width: 50rem;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+.footerList {
+	display: flex;
+	flex-direction: column;
+	gap: 1.8rem;
+}
+
+.footerList li {
+	display: inline-block;
+}
+
+.footerList li a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.footerList li p {
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+}
+
+.footerList li a:hover {
+	color: #4b4b4b;
+	text-decoration: none;
+}
+
+.imprintList {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.imprintList li {
+	color: #4b4b4b;
+	text-decoration: none;
+	font-size: 1.4rem;
+}

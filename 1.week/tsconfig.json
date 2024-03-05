@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "ES2016",
+		"allowJs": false,
+		"resolveJsonModule": false,
+		"moduleDetection": "auto",
+		"noImplicitAny": true,
+		"strictNullChecks": false
+	}
+}

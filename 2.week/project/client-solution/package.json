@@ -1,0 +1,45 @@
+{
+	"name": "2-doit",
+	"version": "1.0.0",
+	"description": "This App is the next gen to-do-manager",
+	"main": "index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"author": "2-doit Team",
+	"license": "MIT",
+	"dependencies": {
+		"@types/react": "^18.2.45",
+		"@types/react-dom": "^18.2.18",
+		"@types/react-router-dom": "^5.3.3",
+		"axios": "^1.6.2",
+		"feather-icons": "^4.29.1",
+		"install": "^0.13.0",
+		"npm": "^10.2.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-feather": "^2.0.10",
+		"react-scripts": "5.0.0",
+		"typescript": "^5.3.3"
+	},
+	"devDependencies": {
+		"@tsconfig/create-react-app": "^2.0.1",
+		"@types/node": "^16.11.16",
+		"typescript": "^4.4.3"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
